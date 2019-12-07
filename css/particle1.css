@@ -1,0 +1,28 @@
+
+html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body{
+  font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas{
+  display:flex;
+  vertical-align:bottom;
+}
+#particles-js{
+  width: 100%;
+  height: 170%;
+    background-image: url('../images/achieve.jpg');
+  background-size: cover;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+    
+}
+#particles canvas{
+    position: absolute;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
